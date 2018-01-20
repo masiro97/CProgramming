@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void){
+
+	double w, h, area, perimeter;
+
+	scanf("%lf %lf",&w,&h);
+	area = w*h;
+	perimeter = 2*(w+h);
+
+	printf("사각형의 넓이 : %d , 사각형의 둘레 : %d", area, perimeter);
+
+	return 0;
+}

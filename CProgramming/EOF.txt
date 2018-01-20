@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+
+	int num;
+	int sum = 0;
+
+	while (scanf_s("%d", &num) != EOF){
+
+		scanf_s("%d", &num);
+		sum += num;
+	}
+
+	printf("정수의 합은 %d\n", sum);
+}
